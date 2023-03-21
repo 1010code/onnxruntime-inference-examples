@@ -1,2 +1,2 @@
-PROJECT(HELLO)
+PROJECT(onnx-example)
 ADD_SUBDIRECTORY(src bin)

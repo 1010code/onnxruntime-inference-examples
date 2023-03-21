@@ -4,6 +4,8 @@
 cmake -S . -B build 
 # 建構項目
 cmake --build build
+# 執行
+./build/bin/main
 ```
 
 ```
