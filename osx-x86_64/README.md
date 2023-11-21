@@ -9,7 +9,7 @@ cmake --build build
 ```
 
 ```
-sudo cp ./lib/libonnxruntime.1.12.1.dylib /usr/local/lib/
-g++ ./src/iris_DNN.cpp -o main -I ./include -L ./lib -lonnxruntime -std=c++17
-g++ ./src/iris_DNN.cpp -o main ./lib/libonnxruntime.1.12.1.dylib -I./include -std=c++17
+sudo cp ./libs/onnxruntime-osx-x86_64-1.15.1/lib/libonnxruntime.1.15.1.dylib /usr/local/lib/
+g++ ./src/iris_DNN.cpp -o main -I ./libs/onnxruntime-osx-x86_64-1.15.1/include -L ./libs/onnxruntime-osx-x86_64-1.15.1/lib -lonnxruntime -std=c++17
+g++ ./src/iris_DNN.cpp -o main ./libs/onnxruntime-osx-x86_64-1.15.1/lib/libonnxruntime.1.15.1.dylib -I./libs/onnxruntime-osx-x86_64-1.15.1/include -std=c++17
 ```
