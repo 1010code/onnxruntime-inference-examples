@@ -2,9 +2,14 @@ build
 .DS_Store
 linux-aarch64/libs/*
 linux-aarch64/bulid
+linux-aarch64/.ipynb_checkpoints
 linux-x64/libs/*
 linux-x64/bulid
+linux-x64/.ipynb_checkpoints
 osx-x86_64/libs/*
 osx-x86_64/bulid
+osx-x86_64/.ipynb_checkpoints
 win-x64/libs/*
 win-x64/bulid
+win-x64/.ipynb_checkpoints
+.ipynb_checkpoints
