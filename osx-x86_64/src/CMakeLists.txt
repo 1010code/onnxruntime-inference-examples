@@ -22,15 +22,15 @@ add_custom_command(
 
 
 # SET(CMAKE_CXX_STANDARD 17)
-# INCLUDE_DIRECTORIES(${PROJECT_SOURCE_DIR}/include)
+# INCLUDE_DIRECTORIES(${PROJECT_SOURCE_DIR}/libs/onnxruntime-osx-x86_64-1.15.1/include)
 # LINK_DIRECTORIES(/usr/local/lib)
 # ADD_EXECUTABLE(main iris_DNN.cpp)
-# TARGET_LINK_LIBRARIES(main libonnxruntime.1.12.1.dylib)
+# TARGET_LINK_LIBRARIES(main libonnxruntime.1.15.1.dylib)
 
 # # SET(CMAKE_CXX_STANDARD 17)
-# # INCLUDE_DIRECTORIES(${PROJECT_SOURCE_DIR}/include)
+# # INCLUDE_DIRECTORIES(${PROJECT_SOURCE_DIR}/libs/onnxruntime-osx-x86_64-1.15.1/include)
 # # ADD_EXECUTABLE(main iris_DNN.cpp)
-# # FIND_LIBRARY(ONNX_LIBRARY onnxruntime.1.12.1 HINTS /usr/local/lib)
+# # FIND_LIBRARY(ONNX_LIBRARY onnxruntime.1.15.1 HINTS /usr/local/lib)
 # # TARGET_LINK_LIBRARIES(main PUBLIC ${ONNX_LIBRARY})
 
 # add_custom_command(
